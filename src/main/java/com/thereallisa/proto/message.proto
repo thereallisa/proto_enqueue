@@ -1,0 +1,9 @@
+package com.thereallisa.proto;
+
+option java_outer_classname = "JobMessageProto";
+
+message JobMessage {
+  required int32 userID = 1;
+  required int32 reportID = 2;
+  required string fileLocation = 3;
+}
